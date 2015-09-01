@@ -56,6 +56,11 @@
     }
   }
 
+  &__order-total {
+    @include clearfix();
+    @include content-spacing();
+  }
+
   &__ticket-info-container {
     margin-bottom: 40px;
 

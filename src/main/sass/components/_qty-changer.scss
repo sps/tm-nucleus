@@ -74,7 +74,6 @@ $qty-btn-size: 44px;
 
 .qty-changer__button--number {
   @include responsive-font('md');
-
   line-height: 40px;
   color: $search-placeholder-color;
   text-align: center;

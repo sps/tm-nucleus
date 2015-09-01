@@ -15,12 +15,6 @@
     }
   }
 
-
-  &__main-ismqp-template {
-    @include clearfix();
-  }
-
-
   &__main-content {
     @include span(full);
 
@@ -29,6 +23,10 @@
     }
   }
 
+  &__main-ismqp-template {
+    @include clearfix();
+    @include responsive-font('md');
+  }
 
   &__heading-primary {
     display: none;
@@ -48,14 +46,16 @@
   }
 
 
-  &__map {
-    height: 100vh;
-    padding-top: 10px;
-    overflow: hidden;
+  &__map-container {
+    display: none;
+
+    @include breakpoint($bp-md) {
+      display: block;
+    }
   }
 
-  &__map-fullscreen {
-    height: 100vh;
+
+  &__map {
     padding-top: 0;
     overflow: hidden;
   }
@@ -267,12 +267,6 @@
     @include responsive-font('md');
 
     position: relative;
-
-    height: 100vh;
-
-    @include breakpoint($bp-md) {
-      width: 100vw;
-    }
   }
 
   &__filter-qty-sort {

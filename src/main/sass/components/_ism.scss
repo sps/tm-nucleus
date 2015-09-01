@@ -1,16 +1,13 @@
 .ism {
   position: relative;
 
-  text-align: center;
-
-  @include breakpoint($bp-ism-fixed) {
-    margin: 0 auto;
-  }
-
   &.map {
-    @include breakpoint($bp-md) {
-      width: calc(90vh);
-    }
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
   }
 
   &__mini-map {
@@ -106,11 +103,35 @@
   }
 
   &__map {
-    margin: 0 auto;
+    position: relative;
+
+    width: 100%;
+
+    padding: 0;
+    padding-bottom: 80%;
+
+    @include breakpoint($bp-md) {
+      padding-bottom: 80%;
+    }
+
+    @include breakpoint($bp-lg) {
+      padding-bottom: 50%;
+    }
   }
 
-  &__map-fullscreen {
-    height: 100vh;
+  &__map--crop {
+    height: 60vh;
+    padding: 0;
+  }
+
+  &__map--fullscreen {
+    height: 100%;
+    padding-bottom: 150%;
+
+    @include breakpoint($bp-md) {
+      height: 100vh;
+      padding: 0;
+    }
   }
 
   &__map-tooltip {

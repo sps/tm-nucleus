@@ -4,6 +4,19 @@
     padding: $module-padding-sm;
   }
 
+  &__map {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 $module-padding-sm $module-padding-sm 0;
+  }
+
+  &__text {
+    padding-top: 15px;
+    padding-left: 5px;
+
+    text-align: right;
+  }
+
   &__listings {
     overflow: auto;
 
@@ -63,5 +76,6 @@
 
   &__item-desc {
     display: block;
+    padding-bottom: 10px;
   }
 }

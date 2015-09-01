@@ -1,27 +1,84 @@
 .payment {
-  &__payment-header-container {
-    @include span(full nest);
+
+  &__radio-input {
+    display: none;
   }
 
-  &__payment-header-icon {
-    @include accordion-header-icon();
-  }
+  &__radio-label {
+    @include responsive-font('md');
 
-  &__payment-header-text {
-    @include accordion-header-text();
-  }
+    display: block;
+    padding: $module-padding-lg;
 
-  &__toggle {
-    @include toggle-btn();
-
-    &.toggle-open {
-      @include breakpoint($max: $bp-md - 1) {
-        @include background-image-retina('../img/arrow', png, 20px, 20px);
-      }
+    @include breakpoint($max: $bp-md) {
+      padding: 15px 8px;
     }
   }
 
-  &__payment-options {
-    @include accordion-content();
+  &__label-desc {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__issuer-name {
+    @include hide-text;
+
+    display: inline-block;
+    height: 0;
+  }
+
+  &__type,
+  &__type-icon {
+    display: inline-block;
+    width: 30px;
+  }
+
+  &__type {
+    position: relative;
+  }
+
+  &__type-icon {
+    position: absolute;
+    top: -4px;
+
+    height: 30px;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+  }
+
+  &__icon-visa {
+    background-image: url(map-get($svgs, 'icon-visa'));
+  }
+
+  &__icon-mc {
+    background-image: url(map-get($svgs, 'icon-mc'));
+  }
+
+  &__icon-discover {
+    background-image: url(map-get($svgs, 'icon-discover'));
+  }
+
+  &__icon-amex {
+    background-image: url(map-get($svgs, 'icon-amex'));
+  }
+
+  &__last-digits {
+    margin-left: 0.5em;
+
+    &:before {
+      margin-right: 0.5em;
+
+      content: '\2022\2022\2022\2022';
+    }
+  }
+
+  &__expiration {
+    margin-left: 40px;
   }
 }
