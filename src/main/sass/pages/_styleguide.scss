@@ -1,3 +1,19 @@
+// Import Susy Framework
+@import '../vendors/susy/susy';
+@include border-box-sizing;
+
+// Susy global settings
+$column-width: 10px * $total-columns;
+
+$susy: (
+  gutter-position: inside-static,
+  container: 100%,
+  columns: $total-columns,
+  column-width: $column-width,
+  gutters: ($gutter-width / $column-width)
+);
+
+
 // config
 $sg-swatch-height: 70px;
 $sg-spacing: 1.5em;
@@ -15,7 +31,7 @@ $sg-spacing: 1.5em;
 
 .sg-header {
   @include span(full);
-  @include outer-spacing($bottom: $spacing-lg);
+  @include outer-spacing($bottom: $spacing-md);
 
   padding-top: $spacing-sm;
   padding-bottom: $spacing-sm;

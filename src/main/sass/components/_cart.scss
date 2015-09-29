@@ -1,6 +1,5 @@
 .cart {
   @include clearfix();
-  @include span(full);
 
   position: fixed;
   bottom: 0;
@@ -8,8 +7,7 @@
   z-index: z('cart');
   width: 100%;
   height: auto;
-  padding-top: $spacing-sm;
-  padding-bottom: $spacing-sm;
+  padding: $spacing-sm ($gutter-width / 2);
   white-space: nowrap;
   background: $brand-gray4;
   border-top: $base-border-style;

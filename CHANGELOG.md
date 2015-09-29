@@ -7,6 +7,8 @@ Changelog
 - Add MIT License to project.
 
 **Changes**
+- Remove Susy dependency from Nucleus project. Decision on grid system should
+  be made by downstream projects and not Nucleus.
 - `responsive-font('xs')` is no longer a responsive font.
 - `xs` font size will only be used for `fixed-font` mixin.
 - Remove `spriterite` function. This was a remnant from tmol-web-spring and is
