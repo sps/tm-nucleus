@@ -58,3 +58,7 @@
 
   color: $brand-primary;
 }
+
+.icon-pin {
+  @include icon($brand-cta, 20px, 40px);
+}
