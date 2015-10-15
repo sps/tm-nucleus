@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="23px" height="41px" viewBox="0 0 23 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xml:space="preserve">
+<svg width="23px" height="41px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xml:space="preserve">
     <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
     <title>Pin</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="desktop" stroke="none" stroke-width="1" fill="" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="top-picks-hover-v3" sketch:type="MSArtboardGroup" transform="translate(-620.000000, -312.000000)">
-            <g id="hovers" sketch:type="MSLayerGroup" transform="translate(0.000000, 253.000000)">
+    <g id="desktop" stroke="none" stroke-width="1" sketch:type="MSPage">
+        <g id="top-picks-hover-v3" sketch:type="MSArtboardGroup">
+            <g id="hovers" sketch:type="MSLayerGroup">
                 <g id="listing-1" sketch:type="MSShapeGroup">
-                    <g id="pin-copy-5" transform="translate(621.000000, 60.000000)">
-                        <path d="M10.3600104,39.5061728 C7.49892083,39.5061728 5.18000518,38.3462692 5.18000518,36.9161702 C5.18000518,35.4860713 7.49892083,34.3261677 10.3600104,34.3261677 C13.2210999,34.3261677 15.5400155,35.4852296 15.5400155,36.9161702 C15.5400155,38.3462692 13.2210999,39.5061728 10.3600104,39.5061728 L10.3600104,39.5061728 Z" id="pin_1_-path" fill-opacity="0.300000012" fill="#000000"></path>
+                    <g id="pin-copy-5">
+                        <path d="M10.3600104,39.5061728 C7.49892083,39.5061728 5.18000518,38.3462692 5.18000518,36.9161702 C5.18000518,35.4860713 7.49892083,34.3261677 10.3600104,34.3261677 C13.2210999,34.3261677 15.5400155,35.4852296 15.5400155,36.9161702 C15.5400155,38.3462692 13.2210999,39.5061728 10.3600104,39.5061728 L10.3600104,39.5061728 Z" id="pin_1_-path" fill-opacity="0.300000012" fill="#100C08"></path>
                         <path d="M10.3600104,0 C4.6378313,0 0,4.75697142 0,10.6259173 C0,12.5632392 0.514547181,14.3745144 1.36406961,15.9388759 L10.3582837,34.5333679 L19.3041532,15.9371493 C20.2072002,14.3745144 20.7200207,12.5632392 20.7200207,10.6259173 C20.7200207,4.75869809 16.0821894,0 10.3600104,0 Z" id="pin-copy-2" stroke="#FFFFFF" stroke-width="1.5" fill=""></path>
                         <path d="M10.3600104,15.5400155 C7.49892083,15.5400155 5.18000518,13.2202082 5.18000518,10.3600104 C5.18000518,7.4998125 7.49892083,5.18000518 10.3600104,5.18000518 C13.2210999,5.18000518 15.5400155,7.49812905 15.5400155,10.3600104 C15.5400155,13.2202082 13.2210999,15.5400155 10.3600104,15.5400155 L10.3600104,15.5400155 Z" id="pin_1_-path" fill="#FFFFFF"></path>
                     </g>
